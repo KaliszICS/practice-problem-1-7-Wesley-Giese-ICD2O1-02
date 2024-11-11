@@ -13,34 +13,30 @@ def q1():
 
 def q2():
   #Write code here
-  word2 = True
-  word2 > 5
-  print(word2)
-  word2 = False
-  word2 < 5
-  print(word2)
+  num2 = int(input("Input an integer: "))
+  bool2 = num2 > 5 
+  print(bool2)
 
 
 def q3():
   #Write code here
-  word3 = input("Input the letter a:")
-  word3 = bool(True)
-  bool(word3) == a
-  print(word3)
+  word3 = str(input("Input the letter a: "))
+  bool3 = word3 == "a"
+  print(bool3)
 
 
 def q4():
   #Write code here
-  word4 = input("Input a word earlier in the dictionary than google: ")
-  word4 = bool(True)
-  print(word4)
+  word4 = str(input("Input a word earlier in the dictionary than google: "))
+  bool4 = word4 < "google"
+  print(bool4)
 
 
 def q5():
   #Write code here
-  word5 = input("Input an Integer: ")
-  word6 = input("Input another Integer: ")
-  bool5 = (word5 * word6) > 40
+  word5 = int(input("Input an integer: "))
+  word6 = int(input("Input another integer: "))
+  bool5 = (word5 * word6) > 40 
   print(f"Your numbers multiplied together are greater than 40: {bool5}")
 
 
